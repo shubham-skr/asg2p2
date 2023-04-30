@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pack Of Cards</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pack of Cards</h1>
+      <button id="shuffle-btn">Shuffle Suits</button>
+    </header>
+    <main id="suits">
+      <!-- CLUB START ----------------------------------------------------------------->
+      <section id="club" class="suit">
+        <div class="suit-img">
+          <img src="./images/club/club.png" alt="club symbol" />
+        </div>
+        <div class="suit-btn">
+          <button class="ascending-btn">
+            <img src="./images/asc.png" alt="ascending button" />
+          </button>
+          <button class="descending-btn">
+            <img src="./images/desc.png" alt="descending button" />
+          </button>
+        </div>
+        <div id="club-cards" class="suit-cards"></div>
+      </section>
+      <!-- CLUB END ------------------------------------------------------------------->
+
+      <!-- DIAMOND START -------------------------------------------------------------->
+      <section id="diamond" class="suit">
+        <div class="suit-img">
+          <img src="./images/diamond/diamond.png" alt="diamond symbol" />
+        </div>
+        <div class="suit-btn">
+          <button class="ascending-btn">
+            <img src="./images/asc.png" alt="ascending button" />
+          </button>
+          <button class="descending-btn">
+            <img src="./images/desc.png" alt="descending button" />
+          </button>
+        </div>
+        <div id="diamond-cards" class="suit-cards"></div>
+      </section>
+      <!-- DIAMOND END ---------------------------------------------------------------->
+
+      <!-- HEART START ---------------------------------------------------------------->
+      <section id="heart" class="suit">
+        <div class="suit-img">
+          <img src="./images/heart/heart.png" alt="heart symbol" />
+        </div>
+        <div class="suit-btn">
+          <button class="ascending-btn">
+            <img src="./images/asc.png" alt="ascending button" />
+          </button>
+          <button class="descending-btn">
+            <img src="./images/desc.png" alt="descending button" />
+          </button>
+        </div>
+        <div id="heart-cards" class="suit-cards"></div>
+      </section>
+      <!-- HEART END ------------------------------------------------------------------>
+
+      <!-- SPADE START ---------------------------------------------------------------->
+      <section id="spade" class="suit">
+        <div class="suit-img">
+          <img src="./images/spade/spade.png" alt="spade symbol" />
+        </div>
+        <div class="suit-btn">
+          <button class="ascending-btn">
+            <img src="./images/asc.png" alt="ascending button" />
+          </button>
+          <button class="descending-btn">
+            <img src="./images/desc.png" alt="descending button" />
+          </button>
+        </div>
+        <div id="spade-cards" class="suit-cards"></div>
+      </section>
+      <!-- SPADE END ------------------------------------------------------------------>
+    </main>
+    <footer>
+      <p>Shubham Kumar &nbsp; | &nbsp; shubhamkumarlhh@gmail.com</p>
+      <p></p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
